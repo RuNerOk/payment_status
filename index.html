@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Состояние платежей</title>
+</head>
+<body>
+    <h1>Состояние платежей</h1>
+    <br>
+    <form>
+        <input type="text" id="payment_name" placeholder="Наименование платежа*">
+        <input type="number" id="payment_cost" placeholder="Стоимость">
+        <input type="button" id="payment_add" value="Добавить">
+    </form>
+    <br>
+    <table class="table" id="table">
+        <tr>
+            <td>Наименование платежа</td>
+            <td>Стоимость</td>
+            <td>Янв</td>
+            <td>Фев</td>
+            <td>Мар</td>
+            <td>Апр</td>
+            <td>Май</td>
+            <td>Июн</td>
+            <td>Июл</td>
+            <td>Авг</td>
+            <td>Сен</td>
+            <td>Окт</td>
+            <td>Ноя</td>
+            <td>Дек</td>
+            <td>Удалить</td>
+        </tr>
+         <!-- <tr>
+            <td>Платеж</td>
+            <td>100</td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><input type="checkbox"></td>
+            <td><button class="delete">&times;</button></td>
+        </tr> -->
+    </table>
+    <br>
+    <span>Израсходовано средств: </span>
+    <b><span id="sum">0</span></b>
+    <script src="js/script.js"></script>
+</body>
+</html>
